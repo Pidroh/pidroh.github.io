@@ -1,0 +1,76 @@
+#leftmenu {
+    background-color: rgba(0, 0, 0, 0.65);
+
+    padding: 10pt;
+    overflow: hidden;
+    margin: 0 auto;
+    float: right;
+    display: block;
+    /*left: 2%;*/
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    right: 10;
+    position: absolute;
+    top: 50px;
+}
+
+#gri {
+    /*position:absolute;*/
+}
+
+body {
+    background-image: url('fullhd.jpg');
+    /*background-size: cover;*/
+    margin: 0 auto;
+    font-family: Verdana, sans-serif;
+    color: silver;
+    padding: 0;
+
+}
+
+#wrapper {
+    max-width: 500px;
+    border: 1px solid red;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+a {
+    color: hotpink;
+
+}
+
+#logo {
+    padding-left: 10;
+}
+
+#menu {
+    background-color: rgba(0, 0, 0, 0.65);
+    background-color: black;
+    padding: 5pt;
+    padding-left: 0pt;
+    padding-right: 0pt;
+    overflow: hidden;
+    margin: 0 auto;
+    float: left;
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    word-spacing: 10px;
+}
+#menulinks {
+    background-color: rgba(0, 0, 0, 0.65);
+    background-color: black;
+    padding: 5pt;
+    padding-left: 0pt;
+    padding-right: 0pt;
+    overflow: hidden;
+    margin: 0 auto;
+    float: right;
+    display: block;
+    position: relative;
+    text-align: right;
+    word-spacing: 10px;
+}

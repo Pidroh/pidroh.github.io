@@ -1,16 +1,16 @@
 #leftmenu {
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.85);
 
     padding: 10pt;
     overflow: hidden;
     margin: 0 auto;
-    float: right;
+    float: left;
     display: block;
     /*left: 2%;*/
     text-align: center;
     position: relative;
     bottom: 0;
-    right: 10;
+    left: 30;
     position: absolute;
     top: 50px;
 }
@@ -50,7 +50,7 @@ a {
 }
 
 #menu {
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.85);
     background-color: black;
     padding: 5pt;
     padding-left: 0pt;

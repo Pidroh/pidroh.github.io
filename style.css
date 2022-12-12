@@ -24,13 +24,11 @@
 }
 
 body {
-    background-image: url('fullhd.jpg');
     /*background-size: cover;*/
     margin: 0 auto;
     font-family: Verdana, sans-serif;
     color: silver;
     padding: 0;
-
 }
 
 #wrapper {

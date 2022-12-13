@@ -1,4 +1,8 @@
 <head>
+  <script src="includer.js">
+
+    </script>
+
   <link rel="stylesheet" href="/style.css">
   <link rel="stylesheet" href="/style_gri.css">
 
@@ -13,14 +17,8 @@
 <!-- End MailerLite Universal -->
 
 </head>
-<div id="menu">
-  <img id="logo" src="logobase.png">
-  <div id="menulinks">
-    <a href="/index.html">Home</a>
-    <a href="/about_us.html">About</a>
-    <a href="/about_us_jp.html">会社概要</a> ◆
-  </div>
-</div>
+<body>
+<div w3-include-html="menu.html"></div>
 <!--*******************************************************-->
 
 <div id="left_gri_buttons" style = "position:absolute; bottom:10pt; left:10pt;">
@@ -30,4 +28,8 @@
 <div style = "position:absolute; bottom:-10pt; right:10pt;">
   
 </div>
+
+<script>
+  includeHTML();
+  </script>
 </body>

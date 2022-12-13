@@ -1,4 +1,9 @@
 body {
     background-image: url('cover03.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #290e1d;
+}
+h1 {
+    margin:0px; margin-bottom: 10px;
 }

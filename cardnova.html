@@ -1,6 +1,11 @@
 <head>
+
   <link rel="stylesheet" href="/style.css">
   <link rel="stylesheet" href="/style_card.css">
+
+  <script src="includer.js">
+
+  </script>
 
   <!-- MailerLite Universal -->
 <script>
@@ -13,22 +18,63 @@
 <!-- End MailerLite Universal -->
 
 </head>
-<div id="menu">
-  <img id="logo" src="logobase.png">
-  <div id="menulinks">
-    <a href="/index.html">Home</a>
-    <a href="/about_us.html">About</a>
-    <a href="/about_us_jp.html">会社概要</a> ◆
-  </div>
-</div>
+<body>
+  <div w3-include-html="menu.html"></div>
+
 <!--*******************************************************-->
 
-<div id="left_gri_buttons" style = "position:absolute; bottom:10pt; left:10pt;">
+<div id="left_gri_buttons" style = "position:absolute; top:40pt; left:10pt;">
+  
   <div class="ml-embedded" data-form="NNgYUA"></div>
   <iframe src="https://store.steampowered.com/widget/2197330/" frameborder="0" width="500" height="190"></iframe>
+  <br>
+<!--   <img src="hyper_two_gameplay_opt.gif" alt="Girl in a jacket">
+"position:absolute; right:0pt;"
+-->
+</div>
+
+<div style = "position:absolute; top:370pt; left:0pt; right: 0pt;">
+  <div style = "position:relative; left:60pt; width: 60pt;">
+    <img src="hyper_two_gameplay_opt.gif" alt="Girl in a jacket"> <br><br><br>
+  </div>
+  
+  <div style = "background-color: #111118; ">
+    <div style = "background-color: #111118; position:absolute; left:0pt; right:0pt;">
+      
+      <div style = "overflow: auto; padding:30pt;">
+        <h1>Battle → get new cards → tweak your deck → repeat</h1>
+        <img src="mock_deck_edit_screen.PNG" alt="Girl in a jacket" width = "480" style="float:right; top:0px;">
+        
+        
+        <div style="float:left;">Employ your tactics to best your opponents. <br>With this, you will get money.<br> With money, you can buy and upgrade cards.<br> You can then use those to cleverly strengthen your deck. <br>Suddenly you are beating stronger enemies and getting even more gold.<br> Cycle repeats.
+        </div>
+      </div>
+      <br><br>
+      <div style = "overflow: auto; text-align: right; padding:30pt; background-color: #290e1d;">
+        
+        <h1>Turn the tide of the duel by going into Nova Hyper!</h1>
+        <img src="HDscreens4.png"  width = "320" style="float:left; top:0px; margin-right: 10pt;">
+        <img src="HDscreens3.png"  width = "320" style="float:left;">
+        
+        <div>When things get rough, you can activate Nova Hyper! <br>
+          This power-up mode will give you various bonuses in battle.<br>
+          But be aware as the opponent is also able to use it.</div>
+      </div>
+      <br><br><br>
+      <div style = "overflow: auto; text-align: center; margin: 30pt;">
+            
+        <iframe style="float: right;" src="https://store.steampowered.com/widget/2197330/" frameborder="0" width="500" height="190"></iframe>
+        <div style="float: left;" class="ml-embedded" data-form="NNgYUA"></div>
+      
+      </div>
+    </div>
+      
+    </div>
+  </div>
+
 
 </div>
-<div style = "position:absolute; bottom:-10pt; right:10pt;">
-  
-</div>
+<script>
+  includeHTML();
+  </script>
 </body>
